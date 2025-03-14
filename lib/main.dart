@@ -1,21 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/pages/password/password_page.dart';
+
+import 'HomePage.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
-class MyApp extends StatelessWidget{
-  const MyApp({super.key});
-
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+      title: 'Менеджер паролей',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const PasswordPage(),
+      home: HomePage(),
     );
   }
 }
