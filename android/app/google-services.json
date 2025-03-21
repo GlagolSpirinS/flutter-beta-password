@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "648277821301",
+    "project_id": "pizda-slonihi",
+    "storage_bucket": "pizda-slonihi.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648277821301:android:c420053d53313d6404f53c",
+        "android_client_info": {
+          "package_name": "com.example.untitled"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2Qj1FNuPV6X9cPesvxf5K9pY7EcjJgKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

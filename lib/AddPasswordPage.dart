@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'models/password_entry.dart';
 
-
 class AddPasswordPage extends StatefulWidget {
   @override
   _AddPasswordPageState createState() => _AddPasswordPageState();
@@ -27,7 +26,7 @@ class _AddPasswordPageState extends State<AddPasswordPage> {
       final entry = PasswordEntry(
         login: _loginController.text,
         password: _passwordController.text,
-        website: _websiteController.text,
+        website: _websiteController.text, id: '',
       );
       Navigator.pop(context, entry);
     }
